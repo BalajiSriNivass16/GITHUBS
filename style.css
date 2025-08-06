@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('assets/your-font.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'CustomFont', sans-serif;
+  background: url('assets/background.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #9D00FF;
+}
+
+.neon-text {
+  color: #9D00FF;
+  -webkit-text-stroke: 1px white;
+  text-shadow:
+    0 0 5px #9D00FF,
+    0 0 10px #9D00FF,
+    0 0 20px #9D00FF;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #9D00FF;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.college-logo {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 2px solid #9D00FF;
+}
+
+.creator {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.creator a {
+  color: #9D00FF;
+  text-decoration: underline;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #1a001f;
+  border: 2px solid #9D00FF;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #9D00FF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #b300ff;
+}
+
+.output {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}

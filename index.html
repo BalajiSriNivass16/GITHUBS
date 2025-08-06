@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internal Marks Calculator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Logo Banner -->
+    <img src="assets/college.PNG" alt="College Logo" class="college-logo" />
+
+    <!-- Creator / Instagram ID in plain font -->
+    <p class="creator">
+      Created by 
+      <a href="https://www.instagram.com/balaji_vibe16?utm_source=qr&igsh=MXZtd3Zkc2RmZHUzdQ==" 
+         target="_blank">
+         @balaji_vibe16
+      </a>
+    </p>
+
+    <!-- Title -->
+    <h1 class="neon-text">Internal Marks Calculator</h1>
+
+    <!-- Form -->
+    <form id="marksForm">
+      <input type="number" id="model1" placeholder="Model 1 Marks (out of 100)" required />
+      <input type="number" id="model2" placeholder="Model 2 Marks (out of 100)" required />
+      <input type="number" id="model3" placeholder="Model 3 Marks (out of 100)" required />
+      <input type="number" id="nptel" placeholder="NPTEL Marks (out of 8)" required />
+      <input type="number" id="online" placeholder="Online Course Marks (out of 7)" required />
+      <input type="number" id="hackathon" placeholder="Hackathon Marks (out of 5)" required />
+      <button type="submit" class="neon-text">Calculate</button>
+    </form>
+
+    <!-- Output -->
+    <div id="output" class="output neon-text"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
